@@ -50,6 +50,9 @@ QUICK-START.md
 mcp.json
 CLAUDE.md
 
+# VS Code settings (local tooling only)
+.vscode/
+
 # Multi-instance coordination (external to repo)
 # ../coordination/ - managed externally  
 # ../vibebet-*/ - git worktrees managed externally
