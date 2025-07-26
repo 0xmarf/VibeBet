@@ -1,0 +1,12 @@
+.icon-check,
+.icon-check * {
+  box-sizing: border-box;
+}
+.icon-check {
+  flex-shrink: 0;
+  width: 12px;
+  height: var(--height-h-3, 12px);
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}

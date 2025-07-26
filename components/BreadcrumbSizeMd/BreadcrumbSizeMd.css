@@ -1,0 +1,26 @@
+.breadcrumb-size-md,
+.breadcrumb-size-md * {
+  box-sizing: border-box;
+}
+.breadcrumb-size-md {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-2-5, 10px);
+  row-gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+  position: relative;
+}
+.breadcrumb-size-md .breadcrumb-breadcrumb-item-instance {
+  flex-shrink: 0 !important;
+}
+
+/* nested override styles */
+
+.breadcrumb-size-md .icon-chevron-right-instance {
+  flex-shrink: 0 !important;
+  width: 15px !important;
+  height: 15px !important;
+}

@@ -1,0 +1,11 @@
+.icon-arrow-right-2,
+.icon-arrow-right-2 * {
+  box-sizing: border-box;
+}
+.icon-arrow-right-2 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}

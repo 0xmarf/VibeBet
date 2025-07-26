@@ -1,0 +1,110 @@
+.pro-blocks-page-header-2-breakpoint-desktop,
+.pro-blocks-page-header-2-breakpoint-desktop * {
+  box-sizing: border-box;
+}
+.pro-blocks-page-header-2-breakpoint-desktop {
+  border-style: solid;
+  border-color: var(--base-border, #e5e5e5);
+  border-width: 0px 0px 1px 0px;
+  padding: var(--spacing-6, 24px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-6, 24px);
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.pro-blocks-page-header-2-breakpoint-desktop .container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-6, 24px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: 1280px;
+  position: relative;
+}
+.pro-blocks-page-header-2-breakpoint-desktop .breadcrumb-instance {
+  flex-shrink: 0 !important;
+}
+.pro-blocks-page-header-2-breakpoint-desktop .flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.pro-blocks-page-header-2-breakpoint-desktop .div {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2, 8px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.pro-blocks-page-header-2-breakpoint-desktop .project-alpha {
+  color: var(--base-foreground, #0a0a0a);
+  text-align: left;
+  font-family: var(--custom-heading-md-font-family, "Geist-Bold", sans-serif);
+  font-size: var(--custom-heading-md-font-size, 30px);
+  line-height: var(--custom-heading-md-line-height, 36px);
+  font-weight: var(--custom-heading-md-font-weight, 700);
+  position: relative;
+  align-self: stretch;
+}
+.pro-blocks-page-header-2-breakpoint-desktop
+  .manage-your-project-s-details-such-as-name-image-description-and-settings {
+  color: var(--base-muted-foreground, #737373);
+  text-align: left;
+  font-family: var(
+    --text-base-leading-normal-normal-font-family,
+    "Geist-Regular",
+    sans-serif
+  );
+  font-size: var(--text-base-leading-normal-normal-font-size, 16px);
+  line-height: var(--text-base-leading-normal-normal-line-height, 24px);
+  font-weight: var(--text-base-leading-normal-normal-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.pro-blocks-page-header-2-breakpoint-desktop .flex2 {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-2, 8px);
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+  position: relative;
+}
+.pro-blocks-page-header-2-breakpoint-desktop .button-instance {
+  flex-shrink: 0 !important;
+}
+
+/* nested override styles */
+
+.pro-blocks-page-header-2-breakpoint-desktop .icon-chevron-right-instance {
+  flex-shrink: 0 !important;
+  width: 15px !important;
+  height: 15px !important;
+}
+.pro-blocks-page-header-2-breakpoint-desktop
+  .breadcrumb-breadcrumb-item-instance {
+  flex-shrink: 0 !important;
+}
+.pro-blocks-page-header-2-breakpoint-desktop .icon-circle-instance {
+  flex-shrink: 0 !important;
+  width: 16px !important;
+  height: var(--height-h-4, 16px) !important;
+}
+.pro-blocks-page-header-2-breakpoint-desktop .icon-circle-instance2 {
+  flex-shrink: 0 !important;
+  width: var(--width-w-4, 16px) !important;
+  height: 16px !important;
+}

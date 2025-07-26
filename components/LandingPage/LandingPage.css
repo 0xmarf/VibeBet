@@ -1,0 +1,803 @@
+.landing-page,
+.landing-page * {
+  box-sizing: border-box;
+}
+.landing-page {
+  background: #ffffff;
+  padding: 0px 0px 16px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.landing-page .pro-blocks-app-shell-1 {
+  background: var(--base-background, #ffffff);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.landing-page .pro-blocks-navbar-1 {
+  background: var(--base-background, #ffffff);
+  border-style: solid;
+  border-color: var(--base-border, #e5e5e5);
+  border-width: 0px 0px 1px 0px;
+  padding: 0px var(--spacing-6, 24px) 0px var(--spacing-6, 24px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: var(--height-h-16, 64px);
+  position: relative;
+  box-shadow: var(--shadow-xs-box-shadow, 0px 1px 2px 0px rgba(0, 0, 0, 0.05));
+}
+.landing-page .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex: 1;
+  max-width: 1280px;
+  position: relative;
+}
+.landing-page .flex {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-6, 24px);
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.landing-page .logomark-instance {
+  flex-shrink: 0 !important;
+}
+.landing-page .nav {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-1, 4px);
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing-page .pro-blocks-navbar-link-instance {
+  flex-shrink: 0 !important;
+}
+.landing-page .flex2 {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-4, 16px);
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing-page .button-instance {
+  flex-shrink: 0 !important;
+}
+.landing-page .avatar-instance {
+  flex-shrink: 0 !important;
+  width: var(--width-w-10, 40px) !important;
+  height: 40px !important;
+}
+.landing-page .pro-blocks-page-header-2-instance {
+  align-self: stretch !important;
+}
+.landing-page .div {
+  padding: var(--spacing-6, 24px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-8, 32px);
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing-page .container2 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-16, 64px);
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  flex-shrink: 0;
+  height: 856px;
+  max-width: 1280px;
+  position: relative;
+}
+.landing-page .flex-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-12, 48px);
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing-page .grid {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: grid;
+  gap: 16px;
+  position: relative;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-rows: repeat(17, minmax(0, 1fr));
+}
+.landing-page .table-head-instance {
+  gap: 0px !important;
+  height: 35.35px !important;
+  grid-column: 1 / span 1 !important;
+  grid-row: 1 / span 1 !important;
+  padding: unset !important;
+  width: unset !important;
+}
+.landing-page .component-4 {
+  height: 188px;
+  position: relative;
+  grid-column: 1 / span 6;
+  grid-row: 14 / span 3;
+  /* Removed transition and cursor since no hover effect */
+}
+
+/* Removed .component-4:hover rule - no hover effects on chart containers */
+.landing-page .button-instance2 {
+  width: 15.62% !important;
+  height: 18.97% !important;
+  position: absolute !important;
+  right: 0% !important;
+  left: 84.38% !important;
+  bottom: 81.26% !important;
+  top: -0.23% !important;
+}
+.landing-page .table-cell {
+  border-style: solid;
+  border-color: var(--base-border, transparent);
+  border-width: 0px 0px 1px 0px;
+  padding: var(--spacing-2, 8px) var(--spacing-0, 0px) var(--spacing-2, 8px)
+    var(--spacing-0, 0px);
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-2, 8px);
+  align-items: center;
+  justify-content: flex-start;
+  width: 16.68%;
+  height: 18.68%;
+  position: absolute;
+  right: 83.32%;
+  left: 0%;
+  bottom: 81.32%;
+  top: 0%;
+}
+.landing-page .text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.landing-page .america-party {
+  color: var(--base-foreground, #0a0a0a);
+  text-align: left;
+  font-family: var(
+    --text-lg-leading-normal-medium-font-family,
+    "Geist-Medium",
+    sans-serif
+  );
+  font-size: var(--text-lg-leading-normal-medium-font-size, 18px);
+  line-height: var(--text-lg-leading-normal-medium-line-height, 28px);
+  font-weight: var(--text-lg-leading-normal-medium-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.landing-page .table-cell2 {
+  border-style: solid;
+  border-color: var(--base-border, #e5e5e5);
+  border-width: 0px 0px 1px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-2, 8px);
+  align-items: center;
+  justify-content: flex-start;
+  width: 16.68%;
+  height: 72.89%;
+  position: absolute;
+  right: 83.32%;
+  left: 0%;
+  bottom: 0%;
+  top: 27.11%;
+}
+.landing-page .text-wrapper2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.landing-page
+  .elon-musk-launched-a-new-fiscal-conservative-third-party-challenging-the-republican-democrat-duopoly {
+  color: var(--base-muted-foreground, #737373);
+  text-align: left;
+  font-family: var(
+    --text-base-leading-normal-normal-font-family,
+    "Geist-Regular",
+    sans-serif
+  );
+  font-size: var(--text-base-leading-normal-normal-font-size, 16px);
+  line-height: var(--text-base-leading-normal-normal-line-height, 24px);
+  font-weight: var(--text-base-leading-normal-normal-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.landing-page .chart-wrapper {
+  border-style: solid;
+  border-color: var(--base-border, #e5e5e5);
+  border-width: 0px 0px 1px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 66.64%;
+  height: 100.53%;
+  position: absolute;
+  right: 16.64%;
+  left: 16.72%;
+  bottom: -0.17%;
+  top: -0.37%;
+}
+.landing-page .multitype-chart {
+  flex-shrink: 0;
+  width: 271px;
+  height: 190.5px;
+  position: relative;
+  overflow: visible;
+}
+.landing-page .table-head-instance2 {
+  gap: 0px !important;
+  width: 200px !important;
+  height: 35.44px !important;
+  position: absolute !important;
+  left: 1080px !important;
+  top: 154.31px !important;
+}
+.landing-page .component-5 {
+  height: 189.41px;
+  position: relative;
+  grid-column: 1 / span 6;
+  grid-row: 6 / span 4;
+  /* Removed transition and cursor since no hover effect */
+}
+
+/* Removed .component-5:hover rule - no hover effects on chart containers */
+.landing-page .epstein {
+  color: var(--base-foreground, #0a0a0a);
+  text-align: left;
+  font-family: var(
+    --text-lg-leading-normal-medium-font-family,
+    "Geist-Medium",
+    sans-serif
+  );
+  font-size: var(--text-lg-leading-normal-medium-font-size, 18px);
+  line-height: var(--text-lg-leading-normal-medium-line-height, 28px);
+  font-weight: var(--text-lg-leading-normal-medium-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.landing-page
+  .pam-bondi-trending-as-doj-clarifies-no-epstein-client-list-existed-she-walked-back-earlier-assertions {
+  color: var(--base-muted-foreground, #737373);
+  text-align: left;
+  font-family: var(
+    --text-base-leading-normal-normal-font-family,
+    "Geist-Regular",
+    sans-serif
+  );
+  font-size: var(--text-base-leading-normal-normal-font-size, 16px);
+  line-height: var(--text-base-leading-normal-normal-line-height, 24px);
+  font-weight: var(--text-base-leading-normal-normal-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.landing-page .chart-wrapper2 {
+  border-style: solid;
+  border-color: var(--base-border, #e5e5e5);
+  border-width: 0px 0px 1px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 66.25%;
+  height: 100.13%;
+  position: absolute;
+  right: 17.03%;
+  left: 16.72%;
+  bottom: -0.03%;
+  top: -0.1%;
+}
+.landing-page .multitype-chart2 {
+  flex-shrink: 0;
+  width: 632px;
+  height: 190.5px;
+  position: relative;
+  overflow: visible;
+}
+.landing-page .table-head-instance3 {
+  gap: 0px !important;
+  height: 35.35px !important;
+  grid-column: 6 / span 1 !important;
+  grid-row: 1 / span 1 !important;
+  padding: unset !important;
+  width: unset !important;
+}
+.landing-page .component-1 {
+  height: 189.41px;
+  position: relative;
+  grid-column: 1 / span 6;
+  grid-row: 2 / span 4;
+  /* Removed transition and cursor since no hover effect */
+}
+
+/* Removed .component-1:hover rule - no hover effects on chart containers */
+.landing-page .doj-fbi-conclude-epstein-had-no-client-list-died-by-suicide {
+  color: var(--base-muted-foreground, #737373);
+  text-align: left;
+  font-family: var(
+    --text-base-leading-normal-normal-font-family,
+    "Geist-Regular",
+    sans-serif
+  );
+  font-size: var(--text-base-leading-normal-normal-font-size, 16px);
+  line-height: var(--text-base-leading-normal-normal-line-height, 24px);
+  font-weight: var(--text-base-leading-normal-normal-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.landing-page .chart-wrapper3 {
+  border-style: solid;
+  border-color: var(--base-border, #e5e5e5);
+  border-width: 0px 0px 1px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 66.41%;
+  height: 100.13%;
+  position: absolute;
+  right: 16.88%;
+  left: 16.72%;
+  bottom: 0.1%;
+  top: -0.23%;
+}
+.landing-page .multitype-chart3 {
+  flex-shrink: 0;
+  width: 632px;
+  height: 190.5px;
+  position: relative;
+  overflow: visible;
+}
+.landing-page .tooltip {
+  background: var(--base-primary, #171717);
+  border-radius: var(--border-radius-rounded-md, 8px);
+  padding: var(--spacing-1-5, 6px) var(--spacing-3, 12px)
+    var(--spacing-1-5, 6px) var(--spacing-3, 12px);
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 180px;
+  max-width: var(--max-width-max-w-sm, 384px);
+  position: relative;
+  opacity: 0;
+  animation: fadeIn 0.2s ease-in-out forwards;
+  /* Removed transform: translateX(-50%) since tooltip is fixed position */
+  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.06);
+  z-index: 50;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.landing-page .tooltip-content {
+  text-align: left;
+  font-family: var(
+    --text-xs-leading-normal-normal-font-family,
+    "Geist-Regular",
+    sans-serif
+  );
+  font-size: var(--text-xs-leading-normal-normal-font-size, 12px);
+  line-height: var(--text-xs-leading-normal-normal-line-height, 16px);
+  font-weight: var(--text-xs-leading-normal-normal-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.tooltip-content-span {
+  color: var(--tailwind-colors-base-white, #ffffff);
+}
+.tooltip-content-span2 {
+  color: var(--tailwind-colors-sky-400, #00bcff);
+}
+.tooltip-content-span3 {
+  color: var(--tailwind-colors-orange-500, #F97316);
+}
+.landing-page .arrow {
+  border-radius: 0px;
+  flex-shrink: 0;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: -6px;
+  top: calc(50% - 0px);
+  transform: translate(0.83px, -6.24px);
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.landing-page .x-axis {
+  border-style: solid;
+  border-color: var(--base-border, #e5e5e5);
+  border-width: 0px 0px 1px 0px;
+  padding: 8px var(--spacing-0, 0px) 8px var(--spacing-0, 0px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 35.35px;
+  position: relative;
+  grid-column: 2 / span 4;
+  grid-row: 1 / span 1;
+}
+.landing-page .frame-9 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing-page .t {
+  color: var(--base-muted-foreground, #737373);
+  text-align: right;
+  font-family: var(
+    --text-sm-leading-normal-medium-font-family,
+    "Geist-Medium",
+    sans-serif
+  );
+  font-size: var(--text-sm-leading-normal-medium-font-size, 14px);
+  line-height: var(--text-sm-leading-normal-medium-line-height, 20px);
+  font-weight: var(--text-sm-leading-normal-medium-font-weight, 500);
+  position: relative;
+}
+.landing-page .frame-10 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing-page .t-6-hrs {
+  color: var(--base-muted-foreground, #737373);
+  text-align: center;
+  font-family: var(
+    --text-sm-leading-normal-medium-font-family,
+    "Geist-Medium",
+    sans-serif
+  );
+  font-size: var(--text-sm-leading-normal-medium-font-size, 14px);
+  line-height: var(--text-sm-leading-normal-medium-line-height, 20px);
+  font-weight: var(--text-sm-leading-normal-medium-font-weight, 500);
+  position: relative;
+}
+.landing-page .frame-11 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing-page .t-12-hrs {
+  color: var(--base-muted-foreground, #737373);
+  text-align: center;
+  font-family: var(
+    --text-sm-leading-normal-medium-font-family,
+    "Geist-Medium",
+    sans-serif
+  );
+  font-size: var(--text-sm-leading-normal-medium-font-size, 14px);
+  line-height: var(--text-sm-leading-normal-medium-line-height, 20px);
+  font-weight: var(--text-sm-leading-normal-medium-font-weight, 500);
+  position: relative;
+}
+.landing-page .frame-12 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing-page .t-18-hrs {
+  color: var(--base-muted-foreground, #737373);
+  text-align: center;
+  font-family: var(
+    --text-sm-leading-normal-medium-font-family,
+    "Geist-Medium",
+    sans-serif
+  );
+  font-size: var(--text-sm-leading-normal-medium-font-size, 14px);
+  line-height: var(--text-sm-leading-normal-medium-line-height, 20px);
+  font-weight: var(--text-sm-leading-normal-medium-font-weight, 500);
+  position: relative;
+}
+.landing-page .frame-13 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing-page .t-24-hrs {
+  color: var(--base-muted-foreground, #737373);
+  text-align: center;
+  font-family: var(
+    --text-sm-leading-normal-medium-font-family,
+    "Geist-Medium",
+    sans-serif
+  );
+  font-size: var(--text-sm-leading-normal-medium-font-size, 14px);
+  line-height: var(--text-sm-leading-normal-medium-line-height, 20px);
+  font-weight: var(--text-sm-leading-normal-medium-font-weight, 500);
+  position: relative;
+}
+.landing-page .component-3 {
+  height: 189.41px;
+  position: relative;
+  grid-column: 1 / span 6;
+  grid-row: 10 / span 4;
+  /* Removed transition and cursor since no hover effect */
+}
+
+/* Removed .component-3:hover rule - no hover effects on chart containers */
+.landing-page .superman {
+  color: var(--base-foreground, #0a0a0a);
+  text-align: left;
+  font-family: var(
+    --text-lg-leading-normal-medium-font-family,
+    "Geist-Medium",
+    sans-serif
+  );
+  font-size: var(--text-lg-leading-normal-medium-font-size, 18px);
+  line-height: var(--text-lg-leading-normal-medium-line-height, 28px);
+  font-weight: var(--text-lg-leading-normal-medium-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.landing-page
+  .james-gunn-s-glossy-reboot-hits-july-11-sparking-buzz-controversy {
+  color: var(--base-muted-foreground, #737373);
+  text-align: left;
+  font-family: var(
+    --text-base-leading-normal-normal-font-family,
+    "Geist-Regular",
+    sans-serif
+  );
+  font-size: var(--text-base-leading-normal-normal-font-size, 16px);
+  line-height: var(--text-base-leading-normal-normal-line-height, 24px);
+  font-weight: var(--text-base-leading-normal-normal-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.landing-page .chart-wrapper4 {
+  border-style: solid;
+  border-color: var(--base-border, #e5e5e5);
+  border-width: 0px 0px 1px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 66.72%;
+  height: 100.13%;
+  position: absolute;
+  right: 16.59%;
+  left: 16.69%;
+  bottom: 0.1%;
+  top: -0.23%;
+}
+.landing-page .chart-area-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  width: 632px;
+  height: 190px;
+  position: relative;
+}
+.landing-page .multitype-chart4 {
+  flex-shrink: 0;
+  width: 455px;
+  height: 190.5px;
+  position: relative;
+  overflow: visible;
+}
+.landing-page .container3 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-16, 64px);
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: 1280px;
+  position: relative;
+}
+.landing-page .flex3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing-page .copyright-2025-element-labs {
+  color: var(--base-muted-foreground, #737373);
+  text-align: left;
+  font-family: var(
+    --text-base-leading-normal-normal-font-family,
+    "Geist-Regular",
+    sans-serif
+  );
+  font-size: var(--text-base-leading-normal-normal-font-size, 16px);
+  line-height: var(--text-base-leading-normal-normal-line-height, 24px);
+  font-weight: var(--text-base-leading-normal-normal-font-weight, 400);
+  position: relative;
+}
+.landing-page .flex4 {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-8, 32px);
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing-page .privacy-policy {
+  color: var(--base-muted-foreground, #737373);
+  text-align: left;
+  font-family: var(
+    --text-base-leading-normal-normal-font-family,
+    "Geist-Regular",
+    sans-serif
+  );
+  font-size: var(--text-base-leading-normal-normal-font-size, 16px);
+  line-height: var(--text-base-leading-normal-normal-line-height, 24px);
+  font-weight: var(--text-base-leading-normal-normal-font-weight, 400);
+  position: relative;
+}
+.landing-page .terms-of-service {
+  color: var(--base-muted-foreground, #737373);
+  text-align: left;
+  font-family: var(
+    --text-base-leading-normal-normal-font-family,
+    "Geist-Regular",
+    sans-serif
+  );
+  font-size: var(--text-base-leading-normal-normal-font-size, 16px);
+  line-height: var(--text-base-leading-normal-normal-line-height, 24px);
+  font-weight: var(--text-base-leading-normal-normal-font-weight, 400);
+  position: relative;
+}
+
+/* nested override styles */
+
+.landing-page .icon-chevron-down-instance {
+  flex-shrink: 0 !important;
+  width: var(--width-w-4, 16px) !important;
+  height: 16px !important;
+}
+.landing-page .icon-search-instance {
+  flex-shrink: 0 !important;
+  width: var(--width-w-4, 16px) !important;
+  height: var(--height-h-4, 16px) !important;
+}
+.landing-page .icon-wallet-instance {
+  flex-shrink: 0 !important;
+  width: 16px !important;
+  height: var(--height-h-4, 16px) !important;
+}
+.landing-page .icon-circle-instance2 {
+  flex-shrink: 0 !important;
+  width: var(--width-w-4, 16px) !important;
+  height: 16px !important;
+}
+.landing-page .icon-chevron-down-instance2 {
+  flex-shrink: 0 !important;
+  width: 15px !important;
+  height: 15px !important;
+}
+.landing-page .icon-circle-instance3 {
+  flex-shrink: 0 !important;
+  width: 16px !important;
+  height: var(--height-h-4, 16px) !important;
+}

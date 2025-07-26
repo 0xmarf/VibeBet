@@ -1,0 +1,20 @@
+.breadcrumb-breadcrumb-item-variant-ellipsis-state-default,
+.breadcrumb-breadcrumb-item-variant-ellipsis-state-default * {
+  box-sizing: border-box;
+}
+.breadcrumb-breadcrumb-item-variant-ellipsis-state-default {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: var(--width-w-9, 36px);
+  height: var(--height-h-9, 36px);
+  position: relative;
+}
+.breadcrumb-breadcrumb-item-variant-ellipsis-state-default
+  .icon-ellipsis-instance {
+  flex-shrink: 0 !important;
+  width: var(--width-w-4, 16px) !important;
+  height: 16px !important;
+}

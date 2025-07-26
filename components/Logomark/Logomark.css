@@ -1,0 +1,20 @@
+.logomark,
+.logomark * {
+  box-sizing: border-box;
+}
+.logomark {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.logomark .content {
+  border-radius: 8px;
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}

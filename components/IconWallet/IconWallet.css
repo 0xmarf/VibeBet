@@ -1,0 +1,12 @@
+.icon-wallet,
+.icon-wallet * {
+  box-sizing: border-box;
+}
+.icon-wallet {
+  flex-shrink: 0;
+  width: 16px;
+  height: var(--height-h-4, 16px);
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}

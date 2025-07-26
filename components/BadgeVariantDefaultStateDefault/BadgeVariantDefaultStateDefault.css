@@ -1,0 +1,51 @@
+.badge-variant-default-state-default,
+.badge-variant-default-state-default * {
+  box-sizing: border-box;
+}
+.badge-variant-default-state-default {
+  background: var(--base-primary, #171717);
+  border-radius: var(--border-radius-rounded-md, 8px);
+  border-style: solid;
+  border-color: var(--tailwind-colors-base-transparent, rgba(255, 255, 255, 0));
+  border-width: 1px;
+  padding: var(--spacing-0-5, 2px) var(--spacing-2, 8px) var(--spacing-0-5, 2px)
+    var(--spacing-2, 8px);
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-1, 4px);
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: var(
+    --shadow-sm-box-shadow,
+    0px 1px 2px -1px rgba(0, 0, 0, 0.1),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.1)
+  );
+  overflow: hidden;
+}
+.badge-variant-default-state-default .badge {
+  color: var(--base-primary-foreground, #fafafa);
+  text-align: left;
+  font-family: var(
+    --text-xs-leading-normal-semibold-font-family,
+    "Geist-SemiBold",
+    sans-serif
+  );
+  font-size: var(--text-xs-leading-normal-semibold-font-size, 12px);
+  line-height: var(--text-xs-leading-normal-semibold-line-height, 16px);
+  font-weight: var(--text-xs-leading-normal-semibold-font-weight, 600);
+  position: relative;
+}
+
+/* nested override styles */
+
+.badge-variant-default-state-default .icon-check-instance {
+  flex-shrink: 0 !important;
+  width: 12px !important;
+  height: var(--height-h-3, 12px) !important;
+}
+.badge-variant-default-state-default .icon-arrow-right-instance {
+  flex-shrink: 0 !important;
+  width: 12px !important;
+  height: var(--height-h-3, 12px) !important;
+}

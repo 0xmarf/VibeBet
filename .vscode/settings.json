@@ -1,0 +1,38 @@
+{
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.cwd": "${workspaceFolder}",
+    "terminal.integrated.env.osx": {
+        "ORCHESTRATOR_MODE": "true",
+        "CLAUDE_PROJECT": "vibebet",
+        "ENABLE_BACKGROUND_TASKS": "true"
+    },
+    "files.associations": {
+        "*.md": "markdown",
+        "orchestrator-*.sh": "shellscript",
+        "coordination/*.md": "markdown"
+    },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "scripts/orchestrator-commands.sh": "scripts/orchestrator-*.sh, scripts/track-progress.sh, scripts/watch-agents.sh, scripts/async-monitor.sh",
+        "README-ORCHESTRATOR.md": "README-MULTI-INSTANCE.md, README-FRONTEND-MULTI.md"
+    },
+    "task.autoDetect": "on",
+    "task.quickOpen.history": 10,
+    "task.quickOpen.detail": true,
+    "problems.decorations.enabled": true,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "files.watcherExclude": {
+        "**/coordination/**": false,
+        "**/.taskmaster/**": true,
+        "**/tmp/**": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/coordination": false,
+        "**/.taskmaster": true
+    },
+    "orchestrator.agentStatusBar": true,
+    "orchestrator.notifications": true,
+    "orchestrator.autoRefresh": 5
+} 

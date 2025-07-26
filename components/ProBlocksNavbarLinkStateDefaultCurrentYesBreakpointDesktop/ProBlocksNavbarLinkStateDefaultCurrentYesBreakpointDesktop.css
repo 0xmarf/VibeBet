@@ -1,0 +1,62 @@
+.pro-blocks-navbar-link-state-default-current-yes-breakpoint-desktop,
+.pro-blocks-navbar-link-state-default-current-yes-breakpoint-desktop * {
+  box-sizing: border-box;
+}
+.pro-blocks-navbar-link-state-default-current-yes-breakpoint-desktop {
+  border-radius: var(--border-radius-rounded-md, 8px);
+  padding: var(--spacing-2-5, 10px) var(--spacing-3, 12px)
+    var(--spacing-2-5, 10px) var(--spacing-3, 12px);
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-1-5, 6px);
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.pro-blocks-navbar-link-state-default-current-yes-breakpoint-desktop:hover {
+  background: var(--base-accent, #f5f5f5);
+  transform: scale(1.05);
+}
+.pro-blocks-navbar-link-state-default-current-yes-breakpoint-desktop
+  .dashboard {
+  color: var(--base-primary, #171717);
+  text-align: left;
+  font-family: var(
+    --text-sm-leading-normal-medium-font-family,
+    "Geist-Medium",
+    sans-serif
+  );
+  font-size: var(--text-sm-leading-normal-medium-font-size, 14px);
+  line-height: var(--text-sm-leading-normal-medium-line-height, 20px);
+  font-weight: var(--text-sm-leading-normal-medium-font-weight, 500);
+  position: relative;
+}
+.pro-blocks-navbar-link-state-default-current-yes-breakpoint-desktop
+  .badge-instance {
+  flex-shrink: 0 !important;
+  width: var(--width-w-5, 20px) !important;
+}
+
+/* nested override styles */
+
+.pro-blocks-navbar-link-state-default-current-yes-breakpoint-desktop
+  .icon-chevron-down-instance {
+  flex-shrink: 0 !important;
+  width: var(--width-w-4, 16px) !important;
+  height: 16px !important;
+}
+.pro-blocks-navbar-link-state-default-current-yes-breakpoint-desktop
+  .icon-check-instance {
+  flex-shrink: 0 !important;
+  width: 12px !important;
+  height: var(--height-h-3, 12px) !important;
+}
+.pro-blocks-navbar-link-state-default-current-yes-breakpoint-desktop
+  .icon-arrow-right-instance {
+  flex-shrink: 0 !important;
+  width: 12px !important;
+  height: var(--height-h-3, 12px) !important;
+}

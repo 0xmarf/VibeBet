@@ -1,0 +1,110 @@
+[
+    {
+        "key": "ctrl+shift+o ctrl+shift+s",
+        "command": "workbench.action.tasks.runTask",
+        "args": "🎭 Orchestrator: Agent Status",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+o ctrl+shift+p", 
+        "command": "workbench.action.tasks.runTask",
+        "args": "🎭 Orchestrator: Quick Progress Check",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+o ctrl+shift+l",
+        "command": "workbench.action.tasks.runTask", 
+        "args": "🎭 Orchestrator: Launch All Agents",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+o ctrl+shift+d",
+        "command": "workbench.action.tasks.runTask",
+        "args": "🚀 Orchestrator: Deploy Status", 
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+o ctrl+shift+a",
+        "command": "workbench.action.tasks.runTask",
+        "args": "🚀 Orchestrator: Deploy All Ready Agents",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+o ctrl+shift+m",
+        "command": "workbench.action.tasks.runTask",
+        "args": "📊 Orchestrator: Live Agent Dashboard",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+o ctrl+shift+b",
+        "command": "workbench.action.tasks.runTask",
+        "args": "📊 Orchestrator: Background Monitoring",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+o ctrl+shift+t",
+        "command": "workbench.action.tasks.runTask",
+        "args": "🧪 Orchestrator: Test All Agents",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+o ctrl+shift+h",
+        "command": "workbench.action.tasks.runTask",
+        "args": "🏥 Orchestrator: System Health Check",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+o ctrl+shift+c",
+        "command": "workbench.action.tasks.runTask",
+        "args": "💬 Orchestrator: Check Communications",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+o 1",
+        "command": "workbench.action.tasks.runTask",
+        "args": "🎭 Orchestrator: Launch Components Agent",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+o 2", 
+        "command": "workbench.action.tasks.runTask",
+        "args": "🎭 Orchestrator: Launch Pages Agent",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+o 3",
+        "command": "workbench.action.tasks.runTask",
+        "args": "🎭 Orchestrator: Launch Styling Agent", 
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+o 4",
+        "command": "workbench.action.tasks.runTask",
+        "args": "🎭 Orchestrator: Launch Optimization Agent",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+o ctrl+shift+i",
+        "command": "workbench.action.tasks.runTask",
+        "args": "🎯 TaskMaster: Initialize Integration",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+o ctrl+shift+y",
+        "command": "workbench.action.tasks.runTask",
+        "args": "🎯 TaskMaster: Sync Current Feature",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+o ctrl+shift+r",
+        "command": "workbench.action.tasks.runTask",
+        "args": "🚀 Orchestrator: Start Auto-Deploy (30s)",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+o ctrl+shift+u",
+        "command": "workbench.action.tasks.runTask",
+        "args": "🚀 Orchestrator: Push to Remote",
+        "when": "!terminalFocus"
+    }
+] 

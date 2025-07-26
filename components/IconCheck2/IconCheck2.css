@@ -1,0 +1,11 @@
+.icon-check-2,
+.icon-check-2 * {
+  box-sizing: border-box;
+}
+.icon-check-2 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}

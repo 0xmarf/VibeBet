@@ -1,0 +1,37 @@
+.table-head-right-text-align-no-state-default,
+.table-head-right-text-align-no-state-default * {
+  box-sizing: border-box;
+}
+.table-head-right-text-align-no-state-default {
+  border-style: solid;
+  border-color: var(--base-border, #e5e5e5);
+  border-width: 0px 0px 1px 0px;
+  padding: 0px var(--spacing-2, 8px) 0px var(--spacing-2, 8px);
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 185px;
+  height: var(--height-h-10, 40px);
+  min-width: 85px;
+  position: relative;
+}
+.table-head-right-text-align-no-state-default .head-text {
+  color: var(--base-muted-foreground, #737373);
+  text-align: left;
+  font-family: var(
+    --text-sm-leading-normal-medium-font-family,
+    "Geist-Medium",
+    sans-serif
+  );
+  font-size: var(--text-sm-leading-normal-medium-font-size, 14px);
+  line-height: var(--text-sm-leading-normal-medium-line-height, 20px);
+  font-weight: var(--text-sm-leading-normal-medium-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

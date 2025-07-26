@@ -1,0 +1,25 @@
+.breadcrumb-breadcrumb-item-variant-link-current-state-default,
+.breadcrumb-breadcrumb-item-variant-link-current-state-default * {
+  box-sizing: border-box;
+}
+.breadcrumb-breadcrumb-item-variant-link-current-state-default {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.breadcrumb-breadcrumb-item-variant-link-current-state-default .breadcrumb {
+  color: var(--base-foreground, #0a0a0a);
+  text-align: left;
+  font-family: var(
+    --text-sm-leading-normal-normal-font-family,
+    "Geist-Regular",
+    sans-serif
+  );
+  font-size: var(--text-sm-leading-normal-normal-font-size, 14px);
+  line-height: var(--text-sm-leading-normal-normal-line-height, 20px);
+  font-weight: var(--text-sm-leading-normal-normal-font-weight, 400);
+  position: relative;
+}

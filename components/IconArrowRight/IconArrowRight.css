@@ -1,0 +1,12 @@
+.icon-arrow-right,
+.icon-arrow-right * {
+  box-sizing: border-box;
+}
+.icon-arrow-right {
+  flex-shrink: 0;
+  width: 12px;
+  height: var(--height-h-3, 12px);
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}

@@ -1,0 +1,11 @@
+.icon-circle,
+.icon-circle * {
+  box-sizing: border-box;
+}
+.icon-circle {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
